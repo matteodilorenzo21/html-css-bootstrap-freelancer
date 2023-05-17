@@ -7,7 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- BOOTSTRAP LINK -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css' integrity='sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==' crossorigin='anonymous'/>
+
+
+    <!-- BOOTSTRAP ICONS -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.css' integrity='sha512-0yYhCyiMB+6XOis4qvWA42kPkKb54+uMaOhbsta6m+aQ7cZOm5hzERPrRkkknlpEdoxVCwYui+yM0jRazpDFuA==' crossorigin='anonymous'/>
 
     <!-- CSS LINK -->
     <link rel="stylesheet" href="css/style.css" type="text/css">
@@ -16,5 +20,40 @@
 </head>
 <body>
     
+    <header class="text-white d-flex align-items-center p-3 sticky-top shadow-lg">
+        <div class="container-md d-flex justify-content-between align-items-center">
+            <h1 class="mb-0 fs-5">START BOOTSTRAP</h1>
+            <i class="bi bi-list fs-2 d-md-none px-3 py-0" role="button"></i>
+            <nav class="d-none d-md-block">
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item"><a class="text-white" href="#">PORTFOLIO</a></li>
+                    <li class="list-inline-item"><a class="text-white" href="#">ABOUT</a></li>
+                    <li class="list-inline-item"><a class="text-white" href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="jumbotron bg-info text-center text-white p-3">
+        <div class="container">
+            <div class="row-cols-1">
+                <div class="col">
+                    <img class="img-fluid " src="img/avatar.svg" alt="dude">
+                </div>
+                <div class="col">
+                    <h2 class="mt-3">START BOOTSTRAP</h2>
+                </div>
+                <div class="col">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <div class="line-white mx-3 bg-light mb-0 rounded"></div>
+                        <i class="bi bi-star-fill fs-1"></i>
+                        <div class="line-white mx-3 bg-light mb-0 rounded"></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h6>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h6>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

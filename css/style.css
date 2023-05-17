@@ -1,0 +1,44 @@
+[class^='container'] {
+    border: 1px solid black;
+}
+
+[class^='row'] {
+    border: 1px solid red;
+}
+
+[class^='col'] {
+    border: 1px solid rgb(251, 255, 0);
+}
+
+a {
+    text-decoration: none;
+}
+
+/***HEADER***/
+header {
+    background-color: #2C3E50;
+}
+
+header i {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: var(--bs-gray);
+}
+
+header i:hover {
+    color: var(--bs-white);
+}
+
+.jumbotron img {
+    height: 300px;
+}
+
+.jumbotron h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.line-white {
+    height: 5px;
+    width: 100px;
+}
