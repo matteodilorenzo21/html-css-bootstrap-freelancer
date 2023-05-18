@@ -1,13 +1,22 @@
+.no-resize {
+    resize: none;
+}
+
+/***! TO DO REMOVE !***/
 [class^='container'] {
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 [class^='row'] {
-    border: 1px solid red;
+    border: 2px solid red;
 }
 
 [class^='col'] {
-    border: 1px solid rgb(251, 255, 0);
+    border: 2px solid rgb(251, 255, 0);
+}
+
+section {
+    border: 5px solid purple;
 }
 
 html {
@@ -18,7 +27,19 @@ a {
     text-decoration: none;
 }
 
-/***HEADER***/
+/***---PALETTE---***/
+.bg-aquagreen {
+    background-color: #009c7d;
+}
+
+/*---STYLISH ELEMENTS---*/
+.star-line {
+    height: 5px;
+    width: 15vw;
+}
+
+
+/***---HEADER---***/
 header {
     background-color: #2C3E50;
 }
@@ -34,7 +55,7 @@ header i:hover {
 }
 
 
-/***JUMBOTRON***/
+/***---JUMBOTRON---***/
 .jumbotron img {
     height: 300px;
 }
@@ -44,13 +65,7 @@ header i:hover {
     font-weight: 600;
 }
 
-/***STYLISH ELEMENTS***/
-.star-line {
-    height: 5px;
-    width: 100px;
-}
-
-/***SECTION - PORTFOLIO***/
+/***---SECTION - PORTFOLIO---***/
 section:nth-child(1) .star-line {
     background-color: #2C3E50;
 }
@@ -58,3 +73,6 @@ section:nth-child(1) .star-line {
 section:nth-child(1) .bi-star-fill {
     color: #2C3E50;
 }
+
+/***SECTION - ABOUT***/
+
