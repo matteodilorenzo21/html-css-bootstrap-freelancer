@@ -2,23 +2,7 @@
     resize: none;
 }
 
-/***! TO DO REMOVE !***/
-[class^='container'] {
-    border: 2px solid black;
-}
-
-[class^='row'] {
-    border: 2px solid red;
-}
-
-[class^='col'] {
-    border: 2px solid rgb(251, 255, 0);
-}
-
-section {
-    border: 5px solid purple;
-}
-
+/***UTILS***/
 html {
     scroll-behavior: smooth;
 }
