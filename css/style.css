@@ -74,5 +74,24 @@ section:nth-child(1) .bi-star-fill {
     color: #2C3E50;
 }
 
-/***SECTION - ABOUT***/
+/***SECTION - CONTACT***/
+section:nth-child(3) .star-line {
+    background-color: #2C3E50;
+}
 
+section:nth-child(3) .bi-star-fill {
+    color: #2C3E50;
+}
+
+/***FOOTER***/
+.bg-footer {
+    background-color: #3A546D;
+}
+
+.text-hemerald {
+    color: rgb(0, 255, 68);
+}
+
+.footer-bottom {
+    background-color: #2C3E50;
+}
